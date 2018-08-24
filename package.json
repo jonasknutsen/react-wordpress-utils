@@ -1,6 +1,6 @@
 {
   "name": "react-wordpress-utils",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "React components for WordPress API",
   "main": "build/index.js",
   "directories": {
