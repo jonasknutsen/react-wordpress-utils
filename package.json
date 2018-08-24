@@ -1,0 +1,52 @@
+{
+  "name": "react-wordpress-utils",
+  "version": "0.0.1",
+  "description": "React components for WordPress API",
+  "main": "build/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "build": "babel lib -d build",
+    "lint": "eslint lib/**; exit 0",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonasknutsen/react-wordpress-utils.git"
+  },
+  "keywords": [
+    "React",
+    "WordPress"
+  ],
+  "author": "Jonas Knutsen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonasknutsen/react-wordpress-utils/issues"
+  },
+  "homepage": "https://github.com/jonasknutsen/react-wordpress-utils#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^8.2.6",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "eslint": "^5.4.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-config-standard-react": "^6.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.0",
+    "eslint-plugin-react": "^7.11.1",
+    "eslint-plugin-standard": "^3.1.0",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-hot-loader": "^4.3.5",
+    "styled-jsx": "^3.0.2",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  }
+}
