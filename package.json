@@ -1,5 +1,5 @@
 {
-  "name": "react-wordpress-utils",
+  "name": "@jonasknutsen/wp-react-components",
   "version": "0.0.3",
   "description": "React components for WordPress API",
   "main": "build/index.js",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jonasknutsen/react-wordpress-utils.git"
+    "url": "git+https://github.com/jonasknutsen/wp-react-components.git"
   },
   "keywords": [
     "React",
@@ -22,9 +22,9 @@
   "author": "Jonas Knutsen",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jonasknutsen/react-wordpress-utils/issues"
+    "url": "https://github.com/jonasknutsen/wp-react-components/issues"
   },
-  "homepage": "https://github.com/jonasknutsen/react-wordpress-utils#readme",
+  "homepage": "https://github.com/jonasknutsen/wp-react-components#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
