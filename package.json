@@ -1,6 +1,6 @@
 {
   "name": "@jonasknutsen/wp-react-components",
-  "version": "0.0.3",
+  "version": "0.0.1",
   "description": "React components for WordPress API",
   "main": "build/index.js",
   "directories": {
